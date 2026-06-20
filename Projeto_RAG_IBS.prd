@@ -1,0 +1,22 @@
+Projeto_RAG_IBS.prd (Product Requirements Document)
+# PRODUCT REQUIREMENTS DOCUMENT (PRD)
+## Produto: Assistente RAG - Especialista em Reforma Tributária (IBS/CBS)
+
+### 1. Visão Geral do Produto
+Um assistente virtual conversacional baseado em Inteligência Artificial, desenhado para atuar como um especialista jurídico-tributário focado na Reforma Tributária do Consumo brasileiro, especificamente na Resolução CGIBS Nº 6, de 30 de abril de 2026 [1].
+
+### 2. A Problemática
+A legislação tributária brasileira é densa e estruturada em hierarquias complexas (Livros, Títulos, Capítulos, Seções). Documentos em PDF dificultam a busca por contexto, pois a pesquisa tradicional por palavras-chave perde a amarração jurídica do artigo com as suas exceções e regimes específicos. Profissionais da área (contadores, advogados, consultores) demandam respostas rápidas, precisas e livres de alucinações cognitivas para tomarem decisões seguras sobre apuração, alíquotas e inovações como o *Split Payment* e o *Cashback*.
+
+### 3. A Essência (Proposta de Valor)
+O produto resolve essa dor utilizando a técnica de Retrieval-Augmented Generation (RAG). A essência do sistema não é "ensinar" a lei genérica à IA, mas sim fatiar a legislação artigo por artigo, mantendo o "endereço" de cada um (metadados), vetorizar essa informação matematicamente e forçar a Inteligência Artificial a formular sua resposta baseando-se única e exclusivamente nos trechos oficiais da Resolução recuperados do banco de dados, citando as fontes de origem.
+
+### 4. Público-Alvo
+* Contadores e Auditores Fiscais.
+* Advogados Tributaristas.
+* Gestores Financeiros e Desenvolvedores de Softwares Fiscais (ERPs).
+
+### 5. Casos de Uso Principais
+* Consulta de regras gerais de Fato Gerador e Base de Cálculo.
+* Verificação de Regimes Específicos e Diferenciados (ex: Serviços Financeiros, Saúde, Educação).
+* Entendimento operacional de obrigações tecnológicas (Split Payment, Devolução Personalizada/Cashback).
