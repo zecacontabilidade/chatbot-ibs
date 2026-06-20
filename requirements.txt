@@ -1,3 +1,2 @@
-streamlit
-supabase
-google-genai
+supabase>=2.0.0
+google-genai>=1.0.0
